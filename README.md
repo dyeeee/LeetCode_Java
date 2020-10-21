@@ -1,5 +1,8 @@
 # LeetCode_Java
 
+## 访问
+src/xxxx/Solution.java
+
 ## 已完成
 
 LC70_爬楼梯_动态规划

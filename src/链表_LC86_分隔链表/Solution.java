@@ -1,6 +1,4 @@
-package LC86_分隔链表;
-
-import java.util.List;
+package 链表_LC86_分隔链表;
 
 class ListNode {
     int val;

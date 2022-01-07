@@ -1,4 +1,4 @@
-package LC70_爬楼梯_动态规划;
+package 动态规划_LC70_爬楼梯;
 
 //每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
 //输入： 3
@@ -10,6 +10,7 @@ package LC70_爬楼梯_动态规划;
 
 // 思路：dp[n]存储去到每个台阶有多少种
 // dp[1] = 1; dp[2] = 2; dp[n] = dp[n-1] + dp[n-2] 走两步到第n台阶或者走一步到
+// 走到dp[n] 可以通过 dp[n-1]+1 或者dp[n-2]+2
 class Solution {
     public int climbStairs(int n) {
         int[] dp = new int[n + 1];

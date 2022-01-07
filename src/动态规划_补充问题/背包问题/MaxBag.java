@@ -1,4 +1,4 @@
-package 补充问题.背包问题;
+package 动态规划_补充问题.背包问题;
 
 
 public class MaxBag {
